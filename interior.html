@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Your Home</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0%;
+        }
+
+        .banner {
+            width: 100%;
+            height: 100vh;
+            background-image: url(https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .navbar {
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            width: 100px;
+            cursor: pointer;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            display: inline-block;
+            position: relative;
+            margin-right: 20px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            padding: 10px;
+            margin-right: 20px;
+            color: white;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+
+        .navbar ul li a:hover{
+            color:slateblue;
+        }
+
+        .content
+        {
+            width: 100%;
+            text-align: center;
+            color: white;
+            position: absolute;
+            margin-top: 10%;   
+           
+        }
+
+        .content h1{
+            font-size: 70px;
+            margin-bottom: 10px;
+        }
+
+        .content p{
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 25px;
+            margin-bottom: 60px;
+        }
+
+        #btn{
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            border: 1px solid black;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+        }
+
+        #btn:hover{
+            color: white;
+            background-color: yellow;
+        }
+       
+
+        #button{
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            border: 2px solid black;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+        }
+
+        #button:hover{
+            color: aqua;
+            background-color:cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="https://i.pinimg.com/originals/0f/03/4e/0f034e04a8952131ebcc3d95c8639255.png" alt="logo-pic" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bedroom</a></li>
+                <li><a href="#">Dinning</a></li>
+                <li><a href="#">Kitchen</a></li>
+                <li><a href="#">Backyard</a></li>
+                <li><a href="#" id="btn">Sign Up</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Design your house</h1>
+            <p>Subscribe our page to receive latest updates and being a good customer</p>
+            <div>
+                <a href="#" id="button">Subscribe</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
